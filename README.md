@@ -1,2 +1,2 @@
-#Segundo arquivo de texto de demonstração
-Teste para aulas de curso
+# PRIMEIRO ARQUIVO TESTE DO GITHUB
+Aulas DS (Desenvolvimento de Sistema) etec

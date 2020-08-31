@@ -1,2 +1,3 @@
 # PRIMEIROS ARQUIVO MÉDIO
-Arquivos soltos e pequenos testes que fiz durante o Médio (2018 - 2020) 
+Arquivos soltos, pequenos testes e trabalhos mais desenvolvidos que fiz durante o Médio (2018 - 2020).
+Contém meu TCC do médio

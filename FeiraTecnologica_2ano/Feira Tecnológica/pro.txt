@@ -1,0 +1,45 @@
+-- O mercado está aquecido para o profissional de TI
+
+Estas são algumas das áreas TI que o mercado demanda hoje em dia.
+Estudos mostram que profissionais de TI terão crescimento da demanda do mercado de até 12% até 2024, 
+ou seja, é uma área em constante crescimento.
+
+
+ Engenharia da Computação: No cargo de Engenheiro de Computação se inicia ganhando R$ 4.211,00 de salário e pode vir a ganhar até R$ 8.052,00. A média salarial para Engenheiro de Computação no Brasil é de R$ 6.526,00. A formação mais comum é de Graduação em Engenharia da Computação.
+Trata-se do conjunto de conhecimentos pertinentes ao desenvolvimento de computadores e seus periféricos.
+Sua atuação  está na projeção e construção de computadores, periféricos e sistemas que agregam software e hardware. 
+Sendo responsável pela produção de equipamentos computacionais para ser usados em distintos setores, de acordo com as expectativas do mercado;
+
+
+ Programador de jogos digitais
+Desenvolvedor de jogos
+Se você curte videogame e está em dúvida de qual área de TI seguir, esta é uma profissão em alta. Dentre os motivos estão o aprimoramento dos smartphones e as transformações digitais. 
+Ainda há pouca oferta de profissionais na área, e a formação pode ser em curso livre, com salários de em torno de R$ 3.500, ou até graduação.
+
+
+ Engenheiro de software
+O engenheiro de softwares trabalha na criação e manutenção de softwares na empresa. 
+É preciso dominar linguagem de programação, processo e qualidade de software, projeto e análise de sistemas. 
+Profissionais com domínio da técnica Scrum se destacam no mercado. 
+Esta metodologia minimiza o uso de documentação através do gerenciamento de documentos de forma ágil e com entregas rápidas. É preciso graduação na área para exercer esta profissão. Pós-graduação e certificações são diferenciais. 
+Os salários são de em média R$ 9 mil para o nível sênior.
+
+
+ Desenvolvedor de banco de dados
+Armazenamento de informação com segurança é crucial dentro de uma organização. Ela precisa ser armazenada adequadamente e 
+recuperada quando for necessário, como para a análise de dados. O profissional responsável por otimizar esta 
+experiência, criando mecanismos de organização e consulta, é o desenvolvedor de banco de dados.
+ A administração dos dados de uma empresa é uma enorme responsabilidade e exige alto preparo e conheciment
+o técnico. A graduação mais comum para a área é Informática, e o salário médio é de R$ 3.500.
+
+
+ Analista de redes
+Esta é mais uma área na qual o profissional é bastante concorrido, já que há poucos profissionais disponíveis no mercado em 
+relação à demanda. O profissional desta área é responsável por criar e implementar sistemas de redes na organização. 
+Para se tornar um analista de redes, a graduação mais comum é de Informática, mas domínio de matemática também é requerido. 
+O salário médio do analista de redes é de R$ 3.800.
+
+Facilitador de TI
+
+
+

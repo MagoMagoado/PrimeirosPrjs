@@ -1,0 +1,227 @@
+*{
+	margin:0; /*margem*/
+	padding:0; /*preencimento*/
+	font-size:none; /*tamanho fonte*/
+	outline:none; /*contorno*/
+	font-weight:300%;/*negrito*/
+	font-family:arial; /*fonte*/
+	box-sizing:border-box;
+	border:none; /*borda*/
+}
+body{
+	position:relative;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+img{
+	max-width:100%;
+}
+div#article{
+	background-color: #FFFFFF;
+	margin:30px;
+	box-shadow:0px 0px 4px rgba(0,0,0,0.2);
+	min-width:888px;
+	display: block;
+}
+	.logo{
+	float:left;
+	position:absolute;
+	top:20px;
+	padding-left:8px;
+	font-family:tahoma;
+	font-style:italic;/*estilo da letra, normal, italico...*/
+	font-weight:bolder;
+	text-shadow:black 0.1em 0.1em 0.2em;/*sombra no texto*/
+	font-size:20pt;
+	color:white;
+	cursor:context-menu; /*cursor normal*/
+	}
+.menu{
+	list-style:none;
+	display:block;
+	background-color:rgba(70,130,180);
+	width:100%;
+	position:sticky; /*para rolar com a página*/
+	}
+.menu ul#main{
+	text-align:right;
+	padding:25px 0px;
+	width:100%;
+
+}
+.menu ul#main li{
+	display:inline;
+	font-size:16pt;
+	padding:0px 20px;
+}
+.menu ul#main li a{
+	color:#2D2D2D;
+	font-family: 'Staatliches', cursive;
+	font-size:25pt;
+	padding:3px;
+	text-transform:uppercase;
+}
+.menu ul#main li :hover{
+	background-color:#FFFFFF;
+	box-shadow:1px 1px 4px;
+	cursor:pointer;
+	}
+#dropdown{
+	position: relative;
+	display: inline-block;
+}
+#dropdown-content{
+	display: none;
+  position: absolute;
+  min-width: 210px;
+  z-index: 1;/*para não na frente dos outros blocos*/
+	background-color:#FFFFFF;
+	box-shadow:0px;
+}
+#dropdown-content a{
+	text-align: left;
+}
+li#drop:hover #dropdown-content {
+	display: flex;
+	flex-direction: column;
+}div#dentro{
+	background-image: url(../img_jp/etec-banner.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position: right;
+	min-height: 340px;
+
+}
+h1#titulo{
+	margin-top:15px;
+	margin-left:10px;
+	font-family:tahoma;
+	font-style:italic;/*estilo da letra, normal, italico...*/
+	font-weight:bolder;
+	text-shadow:black 0.1em 0.1em 0.2em;/*sombra no texto*/
+	font-size:57pt;
+	color:white;
+	cursor:context-menu;
+}
+h2#subtitulo{
+	margin-left:10px;
+	text-transform:uppercase;
+	color:#828282;
+	font-style:italic;
+	text-align:left;
+	font-size:30pt;
+	font-family: 'Questrial', sans-serif;
+	margin-top:30px;
+	margin-left:14px;
+	padding-bottom:0%;
+	background-color:rgba(255,255,255,0.5);/*cor tridesimal com opacidade*/
+	width:59%;/*tamanho da cor de fundo*/
+	border-radius:15px 0px 15px 0px;
+	}
+h1.tituloBody{
+	font-family: 'Oswald', sans-serif;
+	border-radius:0px 25px 0px 25px;
+	background-color:rgba(178,34,34);
+	box-shadow: 3px 2px 4px black;
+	font-size:48px;
+	margin:0px 30px 0px 30px;
+	text-align: center;
+}
+
+p#first{
+	font-size: 18pt;
+	font-family: 'Questrial', sans-serif;
+	line-height: 1.5;/*entre linha, esse valor x a font size*/
+	text-align:justify;
+	display:block;
+  padding: 8px 0px 8px 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:90%;
+}
+div.titulo{
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+	width:75%;
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+div.titulo p{
+	font-family: 'Questrial', sans-serif;
+	font-size: 17pt;
+	text-align:justify;
+	padding: 8px;
+	background-color: rgba(135,206,235,0.3);
+}
+div.titulo h1{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 33px;
+	text-align:center;
+	background-color:rgba(135,206,235);
+	padding: 6px;
+}
+.rodape{
+	background-color:rgba(70,130,180);
+	display:block;
+	padding-bottom:153px;
+	margin-left:3px;
+	margin-right:3px;
+	position:relative;
+	height:100%;
+	position:sticky;
+}
+.rodape span#isa{
+	position:absolute;
+	right:10px;
+	top:305px;
+	font-family: 'Oswald', sans-serif;
+	cursor:context-menu;
+}
+.titulorodape{
+	text-align:center;
+	line-height:55px;
+	font-family:tahoma;
+	font-style:italic;/*estilo da letra, normal, italico...*/
+	font-weight:bolder;
+	text-shadow:black 0.1em 0.1em 0.2em;/*sombra no texto*/
+	font-size:30pt;
+	color:white;
+	cursor:context-menu; /*cursor normal*/
+}
+#rodapelinhas{
+	font-size:17pt;
+	font-family: 'Staatliches', cursive;
+	margin-top:30px;
+	margin-left:20px;
+}
+.facebook{
+	float:right;
+	padding-top:5px;
+	margin-right:20px;
+}
+.direitos{
+	margin:0px;
+	padding:0px;
+  position:absolute;
+  margin-top:128px;
+  font-family:tahoma;
+  font-style:oblique;
+  font-size:10pt;
+  text-shadow:2px 2px 4px white;
+}
+.linhahorizontal{
+	border-bottom: 2px solid lightgrey; /*formou um linha*/
+	width:75%;
+	height:3px;
+	line-height:100px;
+	margin-left:140px;
+	margin-bottom:15px;
+	margin-top:15px;
+}

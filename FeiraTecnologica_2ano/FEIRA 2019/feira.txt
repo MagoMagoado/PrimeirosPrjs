@@ -1,0 +1,84 @@
+A linguagem C# foi influenciada por várias linguagens, como por exemplo, JAVA e C++. Na verdade, ela é uma junção das principais vantagens dentre essas linguagens, 
+melhorando suas implementações e adicionando novos recursos, fazendo a linguagem atrativa para desenvolvedores que queiram
+ migrar para o Microsoft .NET.
+Sua sintaxe é simples e de fácil aprendizagem, muito familiar com a sintaxe de JAVA e C. Além disso, 
+simplifica muitas complexidades do C++, fornecendo recursos poderosos, como tipos de valor nulo, enumerações, 
+delegações, expressões lambdas e acesso direto a memória, suporte a métodos e tipos genéricos, gerando uma melhor segurança
+de tipo e desempenho.
+
+
+
+
+Tim Berners-Lee. Esse é o nome do homem que criou o HTML. 
+Ele criou o HTML para a comunicação e disseminação de pesquisas entre ele e seu grupo de colegas. 
+O HTML ficou bastante conhecido quando começou a ser utilizada para formar a rede pública daquela época, o que se 
+tornaria mais tarde a internet que conhecemos hoje.O HTML é uma linguagem baseada em marcação. 
+Nós marcamos os elementos para mostrar quais informações a página exibe. Por exemplo, um título importante. 
+Aquele título do artigo, da manchete do site, nós marcamos com uma tag/elemento chamado H1.
+
+
+
+CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma 
+linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site. Pense  na decoração da sua página. 
+Utilizando o CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos. 
+Também pode criar tabelas, usar variações de layouts, ajustar imagens para suas respectivas telas e assim por diante.
+O CSS é uma ferramenta muito potente que possibilita criar diversas funcionalidades ao invés de usar JavaScript ou outra 
+linguagem mais pesada. Se usado com moderação, CSS pode viabilizar uma ótima experiência ao desenvolvedor e usuários das 
+páginas web.Com o Cascading Style Sheets é possível criar animações complexas, criar efeitos com uso de parallax, que faz parecer que a 
+imagem de fundo tem uma profundidade diferente um dos outros, criar sites interativos e também jogos com HTML5 e CSS3.
+
+
+JavaScript é uma linguagem de programação criada em 1995 por Brendan Eich enquanto trabalhava na Netscape Communications 
+Corporation. Originalmente projetada para rodar no Netscape Navigator, ela tinha o propósito de oferecer aos desenvolvedores 
+formas de tornar determinados processos de páginas web mais dinâmicos, tornando seu uso mais agradável. Um ano depois de seu 
+lançamento, a Microsoft portou a linguagem para seu navegador, o que ajudou a consolidar a linguagem e torná-la uma das 
+tecnologias mais importantes e utilizadas na internet.
+
+
+O SQL é uma linguagem padrão, especificamente concebida para permitir que as pessoas a criem Bancos de Dados, 
+adicionem novos dados a essas bases, manipulem os dados, e recuperem partes selecionadas dos dados.Existem basicamente duas formas de manipulação de dados usando o software de banco de dados. Uma abordagem é interagir 
+diretamente com o SGBD usando uma linguagem especial chamada linguagem de consulta. Na segunda abordagem, o utilizador 
+interage com o programa de aplicação. O programa de aplicação envia instruções para o SGBD, que então executa as ações 
+especificadas pelo programa. Esta lição irá se concentrar em usar linguagens de consulta para executar tarefas de 
+processamento de dados.
+
+Depois de ler esta lição, você deve ser capaz de:
+
+Definir a linguagem de consulta de dados.
+Descreva um exemplo de uma linguagem de consulta.
+Discutir as funções e capacidades de uma linguagem de consulta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTML é a linguagem de marcação que nós usamos para estruturar e dar significado para o nosso conteúdo web, por exemplo, 
+definindo parágrafos, cabeçalhos, tabelas de conteúdo, ou inserindo imagens e vídeos na página.
+
+CSS é uma linguagem de regras de estilo que nós usamos para aplicar estilo ao nosso conteúdo HTML, por exemplo, 
+definindo cores de fundo e fontes, e posicionando nosso conteúdo em múltiplas colunas.
+
+JavaScript é uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente, controlar 
+múltimídias, imagens animadas, e tudo o mais que há de intessante. Ok, não tudo, mas é maravilhoso o que você pode efetuar 
+com algumas linhas de código JavaScript.

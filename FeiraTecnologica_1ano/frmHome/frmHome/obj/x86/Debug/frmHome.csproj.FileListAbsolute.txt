@@ -1,0 +1,180 @@
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.exe
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.pdb
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+E:\LP\depois das férias\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+H:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.exe
+H:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.pdb
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+D:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.exe
+D:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.pdb
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+F:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.exe
+F:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.pdb
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.final.resources
+F:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+I:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.exe
+I:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.pdb
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.final.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+I:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+I:\FEIRA 2018\frmHome\frmHome\bin\Debug\frmHome.exe
+I:\FEIRA 2018\frmHome\frmHome\bin\Debug\frmHome.pdb
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.final.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+I:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+E:\FEIRA 2018\frmHome\frmHome\bin\Debug\frmHome.exe
+E:\FEIRA 2018\frmHome\frmHome\bin\Debug\frmHome.pdb
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.final.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+E:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+H:\FEIRA 2018\frmHome\frmHome\bin\Debug\frmHome.exe
+H:\FEIRA 2018\frmHome\frmHome\bin\Debug\frmHome.pdb
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+H:\FEIRA 2018\frmHome\frmHome\obj\x86\Debug\frmHome.frmPerdeu.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.pdb
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmPerdeu.resources
+D:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+H:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmPerdeu.resources
+E:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.exe
+E:\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.pdb
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csprojResolveAssemblyReference.cache
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmPerdeu.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+E:\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.Cache
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.exe
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\bin\Debug\frmHome.pdb
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csprojAssemblyReference.cache
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHome.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando1.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando3.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmInstrucoes.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmHistoria.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase2.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase1.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFase3.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmCarregando2.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmFinal.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.frmPerdeu.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Properties.Resources.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.Resources.Form1.resources
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.GenerateResource.cache
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.csproj.CoreCompileInputs.cache
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.exe
+D:\Documents\Etec Dans\1º ano\Mulher_Rural\frmHome\frmHome\obj\x86\Debug\frmHome.pdb

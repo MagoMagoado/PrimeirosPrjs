@@ -1,0 +1,168 @@
+<!doctype html>
+		<html lang="pt-br">
+		<head>
+		<title>
+		Etec Dans | Feira Tecnológica
+		</title>
+	    <meta name="keywords" content="Viagens, Férias, Pontos Turísticos, Japão"/>
+		<meta name="description" content=" Este site é um guia turístico"/>
+		<meta name="author" content="Isabella"/>
+		<meta charset="UFT-8"/>
+		<link rel = "stylesheet" href= "css_jp/estilo_css.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<link rel="icon" href ="img_jp/japao.png"/>
+		</head>
+
+		<body>
+		<section>
+		<header>
+
+		<nav class="menu">
+		<h1 class="logo">ETEC DANS</h1>
+
+		<ul id="main">
+		<li><a href="home.html">Home</a></li>
+
+		<li id="drop">
+			<div id="dropdown">
+			  <a id="dropbtn">Etim Informática</a>
+			  <div id="dropdown-content">
+			    <a href="programacao.html">Programação</a>
+			    <a href="materias.html">Matérias</a>
+			    <a href="equipe.html">Equipe</a>
+					<a href="futuro.html">Futuro</a>
+			  </div>
+			</div>
+		</li>
+
+		<li id="drop">
+			<div id="dropdown">
+				<a href="programe.html" id="dropbtn">Programe</a>
+				<div id="dropdown-content" style="min-width:130px;">
+					<a href="html.html">HTML</a>
+					<a href="css.html">CSS</a>
+				</div>
+			</div>
+		</li>
+		</ul>
+
+		</nav>
+		<div id="dentro">
+			<h1 id="titulo"title="Infórmatica é o melhor curso">ETIM INFORMÁTICA</h1>
+			<h2 id="subtitulo">Feira técnologica|Etec Dans</h2>
+		</div>
+		</header>
+		<div id="article">
+			<h1 class="tituloBody">CSS</h1>
+			<h2 id="subtituloBody">Linguagem básica para criação de WebSites.</h2>
+			<img id="laboratorio" src="img_jp/o-que-e-CSS.png"></img>
+			<p id="first">Enquanto o HTML é utilizado para definir o conteúdo e sua estrutura semântica, o <strong>CSS</strong> é usado para estilizá-lo e desenhá-lo.
+			Por exemplo, você pode usar o CSS para alterar a fonte, cor, tamanho e espaçamento do seu conteúdo, dividí-lo em multiplas colunas, ou adicionar
+			animações e outros recursos decorativos.<br><i><span style="font-weight:bold; font-size:16pt;"> Para continuar esse artigo, é recomendável você dar uma olhada primeiro na seção <a href="html.html">HTML</a>.</span></i></p>
+			<p id="first">CSS (<i>Cascading Style Sheets</i>) é usado para estilizar o conteúdo disposto em páginas da Web - por exemplo, para alterar a fonte, cor, tamanho e
+		 	espaçamento do seu conteúdo, dividi-lo em várias colunas ou adicionar animações e outros recursos decorativos. Acompanhe a seguir um começo
+		 	suave para compreender o uso CSS com o básico de como ele funciona, como é a sintaxe e como você pode começar a usá-lo para adicionar
+		  estilo ao HTML.</p>
+			<hr class="linhahorizontal">
+			<h2 id="estrutura">SINTAXE</h2>
+			<p id="first">A linguagem CSS funciona através de regras com o principal objetivo de estilizar visualmente o conteúdo HTML da página. Com regras,
+		 	podemos selecionar um ou mais elementos em uma página e aplicar estilos de acordo. Uma regra é formada de:</p>
+			<ul id="lista">
+				<li>Um ou mais seletores;</li>
+				<li>Chaves: {  };</li>
+				<li>Declarações, cada uma com propriedade e valor (terminando a linha com ";").</li>
+			</ul>
+			<div id="exemplo">
+				<img src="img_jp/exemplo-css.jpg"/>
+			</div>
+			<p id="first">No exemplo acima, vemos a seleção das tags <i>p</i> e a aplicação da cor vermelha a todas elas. Ou seja, com esta regra, todos os
+		 	parágrafos da página ficarão vermelhos.<p/>
+			<hr class="linhahorizontal">
+			<h2 id="estrutura">CÓDIGOS BÁSICOS</h2>
+			<p id="first">A lista de códigos para a estilização com CSS é extensa, porém ao explorarmos e usarmos ele por um tempo, percebemos que alguns códigos são
+			praticamente sempre utilizados, são esses, códigos que envolvem a formação de texto, redimensionamento/posicionamento de objetos, largura e
+			comprimento.</p>
+			<p id="first">Veja a seguir alguns códigos a respeito da formatação de texto, coloração e sobre largura e comprimento.</p>
+			<ul id="lista">
+				<li><strong>FONT-SIZE:</strong> tamanho do texto;</li>
+				<li><strong>FONT-FAMILY:</strong> fonte do texto/estilo da letra;</li>
+				<li><strong>TEXT-ALIGN:</strong> determina o alinhamento do texto;</li>
+				<li><strong>COLOR:</strong> a cor do texto;</li>
+				<li><strong>TEXT-SHADOW:</strong> cria uma sombra no texto dentro de um elemento;</li>
+				<li><strong>BACKGROUND-COLOR:</strong> a cor atrás do conteúdo de um elemento e do <i>padding</i>; </li>
+				<li><strong>WIDTH:</strong> largura de um elemento;</li>
+				<li><strong>HEIGHT:</strong> comprimento de um elemento.</li>
+			</ul>
+			<p id="first">Abaixo temos um exemplo da utilização desses códigos para todos os parágrafos de um documento HTML, representado pelo seletor "p".</p>
+			<div id="exemplo">
+				<table>
+				<tr><td><h3 style="text-align:center;">HTML</h3></td></tr>
+				<tr style="color:purple;"><td>&lt;body&gt;</tr></td>
+				<tr style="color:red;"><td>&lt;p&gt;</td></tr>
+				<tr><td>Exemplo de formatação com CSS.</td></tr>
+				<tr style="color:red;"><td>&lt;/p&gt;</tr></td>
+				<tr style="color:purple;"><td>&lt;/body&gt;</tr></td>
+				</table>
+				<table>
+				<tr><td><h3 style="text-align:center;">CSS</h3></td></tr>
+				<tr><td><span style="color:red;">p</span>{</td></tr>
+				<tr><td>font-size:<span style="color:#FC9700;">25px</span>;</td></tr>
+				<tr><td>text-align:<span style="color:#FC9700;">center</span>;</td></tr>
+				<tr><td>font-family:<span style="color:#FC9700;">arial</span>;</td></tr>
+				<tr><td>color:<span style="color:#FC9700;">red</span>;</td></tr>
+				<tr><td>text-shadow:<span style="color:#FC9700;">1px 1px 2px blue;</span>;</td></tr>
+				<tr><td>background-color:<span style="color:#FC9700;">lightgrey</span>;</td></tr>
+				<tr><td>width:<span style="color:#FC9700;">100%</span>;</td></tr>
+				<tr><td>height:<span style="color:#FC9700;">30px</span>;</td></tr>
+				<tr><td>}</td></tr>
+				</table>
+			</div><br>
+			<p id="first">O resultado da programação acima é:</p>
+			<p id="exParagrafo">Exemplo de formatação com CSS.</p>
+			<hr class="linhahorizontal">
+			<h2 id="estrutura">INSERIR DOCUMENTO CSS EM UMA PÁGINA HTML</h2>
+			<p id="first">Para que as regras tenham efeito na página, há três maneiras de inseri-las:</p>
+			<ul id="lista">
+			<li style="font-size:18pt;">Arquivo externo “.css” ligado à página HTML através da tag &lt;link&gt; (melhor método);</li>
+			<p id="first"> É necessário aplicar seu documento CSS ao seu documento HTML, do contrário, o estilo CSS não irá afetar a maneira como o seu
+		 	navegador mostra seu documento HTML.</p>
+			<p id="first"><strong></strong>Abra seu arquivo <i>html</i> e cole o seguinte código em algum lugar no cabeçalho, ou seja, entre as tags &lt;head&gt; e </head>:</p>
+			<div id="exemplo"><span id="i">&lt;link href="styles/style.css" rel="stylesheet"&gt;</p></span></div><br>
+			<li style="font-size:18pt;">Dentro da tag &lt;head&gt; de uma página, utilizando a tag “&lt;style&gt;”</li><br>
+			<div id="exemplo">
+				<table>
+				<tr><td>[...]</tr></td>
+				<tr style="color:blue;"><td>&lt;head&gt;</td></tr>
+				<tr style="color:#FF00FF;"><td>&lt;style&gt;<span style="color:black;">color:red;</span>&lt;/style&gt;</td></tr>
+				<tr style="color:blue;"><td>&lt;/head&gt;</td></tr>
+				</table>
+			</div><br>
+			<li style="font-size:18pt;">Dentro de um elemento, utilizando o atributo style</li><br>
+				<div id="exemplo">
+					<table>
+						<tr><td>[...]</tr></td>
+						<tr style="color:red;"><td>&lt;p <span style="color:#FF00FF;">style="color:red;"</span>&gt;<span style="color:black;">texto do parágrafo aqui.</span>&lt;/p&gt;</td></tr>
+					</table>
+				</div>
+				<hr class="linhahorizontal" style="visibility:hidden;">
+			</ul>
+		</div>
+
+		<footer class="rodape">
+		<h1 class="titulorodape">ETIM INFORMÁTICA<br></h1>
+		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fpt-br.facebook.com%2Fetectaquaritinga%2F&tabs=timeline&width=400&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="400" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" class="facebook"></iframe>
+		<span id="isa" title="Fiz praticamente tudo sozinha">By: Isabella</span>
+		<hgroup id="rodapelinhas">
+		Rua Francisco Valzacchi, 51<br>
+		Vila Rosa<br>
+		Taquaritinga - SP<br>
+		<span class="direitos">&copy Copyright 2018 - Todos os direitos reservados<br></span>
+		</hgroup>
+		</footer>
+
+		</section>
+		</body>
+        </html>

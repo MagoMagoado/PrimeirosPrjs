@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8070CEA1-723D-4B9B-9BEE-0D583CEA7322}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PRJPetShop</RootNamespace>
+    <AssemblyName>PRJPetShop</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadAgendamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadAgendamento.Designer.cs">
+      <DependentUpon>frmCadAgendamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadAnimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadAnimal.Designer.cs">
+      <DependentUpon>frmCadAnimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadCliente.Designer.cs">
+      <DependentUpon>frmCadCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadRaca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadRaca.Designer.cs">
+      <DependentUpon>frmCadRaca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadServico.Designer.cs">
+      <DependentUpon>frmCadServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalhesAgendamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetalhesAgendamentos.Designer.cs">
+      <DependentUpon>frmDetalhesAgendamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocalizarAnimal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocalizarAnimal.Designer.cs">
+      <DependentUpon>frmLocalizarAnimal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocalizarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocalizarCliente.Designer.cs">
+      <DependentUpon>FrmLocalizarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="petshopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>petshopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VariaveisGlobais.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadAgendamento.resx">
+      <DependentUpon>frmCadAgendamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadAnimal.resx">
+      <DependentUpon>frmCadAnimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadCliente.resx">
+      <DependentUpon>frmCadCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadRaca.resx">
+      <DependentUpon>frmCadRaca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadServico.resx">
+      <DependentUpon>frmCadServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetalhesAgendamentos.resx">
+      <DependentUpon>frmDetalhesAgendamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalizarAnimal.resx">
+      <DependentUpon>frmLocalizarAnimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocalizarCliente.resx">
+      <DependentUpon>FrmLocalizarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="petshopDataSet.xsc">
+      <DependentUpon>petshopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="petshopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>petshopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="petshopDataSet.xss">
+      <DependentUpon>petshopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_icon-close-circled_211650.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_10_Maximize_106232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_10_Maximize_1062321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_minimize-2_2561246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_minus_circle_1303875.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akita3-1024x939.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

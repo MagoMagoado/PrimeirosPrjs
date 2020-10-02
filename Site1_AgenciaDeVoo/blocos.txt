@@ -1,0 +1,13 @@
+CSS
+CSS é a abreviação de cascading style sheets, que significa "folha de estilo em cascata" é ultilizada para definir a apresentação
+(aparência) em páginas da internet que adotam para o seu desenvolvemento linguagens de marcação (como HTML, XML, etc). O CSS define como 
+serão exibidos os elementos contidos no código de uma página da internet e sua maior vantagem é efetuar a separação entre o formato e o conteúdo
+de um documento.
+
+FORMAS DE INSERÇÃO DE CSS
+
+As três possibilidades de inserção do CSS no HTML são:
+*CSS diretamente nas tags HTML;
+*CSS dentro do head;
+*CSS vindo de um arquivo 
+

@@ -1,0 +1,298 @@
+*{
+	margin:0; /*margem*/
+	padding:0; /*preencimento*/
+	font-size:none; /*tamanho fonte*/
+	outline:none; /*contorno*/
+	font-weight:300%;/*negrito*/
+	font-family:arial; /*fonte*/
+	box-sizing:border-box;
+	border:none; /*borda*/
+}
+body{
+	position:relative;
+}
+p{
+	text-align:justify;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+img{
+	max-width:100%;
+}
+div#article{
+	background-color:#FFFFFF;
+	margin:46px;
+	padding:25px;
+	box-shadow:0px 0px 4px rgba(0,0,0,0.2);
+}
+
+.titulo{
+	font-family:tahoma;
+	font-style:italic;/*estilo da letra, normal, italico...*/
+	font-weight:bolder;
+	text-shadow:black 0.1em 0.1em 0.2em;/*sombra no texto*/
+	font-size:57pt;
+	color:white;
+}
+.subtitulo{
+	color:#828282;
+	font-style:italic;
+	text-align:left;
+	font-size:30pt;
+	font-family:serif;
+	margin-top:30px;
+	margin-left:14px;
+	padding-bottom:0%;
+	background-color:rgba(255,255,255,0.5);/*cor tridesimal com opacidade*/
+	width:59%;/*tamanho da cor de fundo*/
+	border-radius:15px 0px 15px 0px;
+	}
+	.logo{
+	float:left;
+	position:absolute;
+	top:20px;
+	padding-left:8px;
+	font-family:tahoma;
+	font-style:italic;/*estilo da letra, normal, italico...*/
+	font-weight:bolder;
+	text-shadow:black 0.1em 0.1em 0.2em;/*sombra no texto*/
+	font-size:20pt;
+	color:white;
+	cursor:context-menu; /*cursor normal*/
+	}
+.menu{
+	list-style:none;
+	display:block;
+	background-color:pink;
+	width:100%;
+	position:sticky; /*para rolar com a página*/
+	}
+.menu ul#main{
+	text-align:right;
+	padding:25px 0px;
+	width:100%;
+	
+}
+.menu ul#main li{
+	display:inline;
+	font-size:16pt;
+	padding:0px 20px;
+	font-weight:bold;
+}
+.menu ul#main li a{
+	color:black;
+	font-family: 'Indie Flower', cursive;
+	padding:3px;
+	text-transform:uppercase;
+}
+.menu ul#main li :hover{
+	background-color:#FFFFFF;
+	box-shadow:1px 1px 4px;
+	cursor:pointer;
+	}
+.drop{
+	display:list-item;
+}
+.dentro {
+	position:relative;
+	
+}
+.dentro figcaption{
+	position:absolute;
+	left: 80px;
+	top: 190px;
+	cursor:context-menu;
+}
+.dentro img{
+	width:100%;
+	max-width:100%;
+	height:80%;
+}
+.rodape{
+	background-color:pink;
+	display:block;
+	padding-bottom:153px;
+	margin-left:3px;
+	margin-right:3px;
+	position:relative;
+	height:100%;
+	position:sticky;
+}
+.rodape span#isa{
+	position:absolute;
+	right:10px;
+	top:305px;
+	font-family:cursive;
+}
+.titulorodape{
+	text-align:center;
+	line-height:55px;
+	font-family:tahoma;
+	font-style:italic;/*estilo da letra, normal, italico...*/
+	font-weight:bolder;
+	text-shadow:black 0.1em 0.1em 0.2em;/*sombra no texto*/
+	font-size:30pt;
+	color:white;
+	cursor:context-menu; /*cursor normal*/
+}
+#rodapelinhas{
+	font-size:16pt;
+	font-family: 'Indie Flower', cursive;
+	font-weight:bold;
+	margin-top:30px;
+	margin-left:20px;
+}
+.facebook{
+	float:right;
+	padding-top:5px;
+	margin-right:20px;
+}
+.direitos{
+	margin:0px;
+	padding:0px;
+  position:absolute;
+  margin-top:128px;
+  font-family:tahoma;
+  font-style:oblique;
+  font-size:10pt;
+  text-shadow:2px 2px 4px white;
+}
+.linhahorizontal{
+	border-bottom: 2px solid lightgrey; /*formou um linha*/
+	width:75%;
+	height:3px;
+	line-height:100px;
+	margin-left:140px;
+	margin-bottom:15px;
+	margin-top:15px;
+	
+}
+h1#first_title::before{
+	content:url(../img_jp/icone.png);
+	height:36px;
+	width:36px;
+	display:none;
+}
+.tituloBody{
+	color:#FFFFFF;
+    text-shadow:4px 0px 3px #000;
+	background-color:#2d343e;
+	text-align:center;
+	display:block;
+	padding:10px;
+}
+.tituloBody h2{
+	font-size:10pt;
+}
+figure#foto_legenda img{
+	width:425px;
+	height:283px;
+}
+figure#foto_legenda{
+	width:430px;
+	position:relative;
+	border:5px solid #FFFFFF;
+	box-shadow:0px 0px 4px rgba(0,0,0,0.3);
+	padding:0px;
+	margin-top:5px;
+	margin-left:95px;/*deixou a tabela no meio*/
+}
+figure#foto_legenda figcaption{
+	opacity:0;
+	position:absolute;
+	top:0px;
+	background-color:rgba(255,182,193,0.5);
+	width:100%;
+	height:100%;
+	padding:25px;
+	box-sizing:border-box;
+	font-size:14pt;
+	color:#000;
+	cursor:pointer;
+}
+figure#foto_legenda:hover figcaption{
+	opacity:1;
+	transition:opacity 0.5s;
+}
+table#mesa{
+	margin-top:5px;
+	width:100%;
+}
+table#mesa td{
+	padding:10px 5px 5px 0px;
+}
+h2#legenda{
+	color:#000;
+	display:inline;
+	font-family: 'Indie Flower', cursive;
+	margin-top:10px;
+	margin-left:245px;
+	border-left:3px solid black;
+	border-right:3px solid black;
+	padding:10px;
+	text-transform:uppercase;
+	text-align:center; /*deixa, dentro das bordas, no centro "eu acho"*/
+}
+div#tc{
+	width:100%;
+	position:relative;
+	padding:485px 0px 485px 0px;
+	border-left:1px solid lightgrey;
+	border-right:1px solid lightgrey;
+	margin:10px 0px 10px 0px;
+}
+div#tc p{
+	margin:0px 25px 0px 25px;
+	padding:100px 0px 100px 0px;
+	background-image:url(../img_jp/banner2.jpg);
+	background-size:250px 230px;
+	background-repeat: no-repeat;
+	background-position:center;
+	font-weight:bold;
+	font-family: 'Arimo', sans-serif;
+	font-size:14pt;
+}
+div#tc section#esquerda{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:500px;
+	margin-left:5px;
+}
+div#tc section#esquerda h1{
+	font-family: 'Indie Flower', cursive;
+	border:1px solid #000;
+	border-radius:0px 10px 30px 0px;
+	background-color:rgba(135,206,235,0.3);
+	font-size:30px;
+	margin-top:15px;
+	text-align:center;
+}
+div#tc section#esquerda h1:hover{
+	font-size:35pt;
+	cursor:pointer;
+}
+div#tc aside#direita{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:500px;
+	margin-right:5px;
+}
+div#tc aside#direita h1{
+	border:1px solid #000;
+	border-radius:0px 10px 30px 0px;
+	background-color:rgba(135,206,235,0.3);
+	font-family: 'Indie Flower', cursive;
+	font-size:30px;
+	margin-top:15px;
+	text-align:center;
+}
+div#tc aside#direita h1:hover{
+	font-size:35pt;
+	cursor:pointer;
+}

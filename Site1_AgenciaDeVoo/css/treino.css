@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:none;
+	font-size:none;
+	outline:none;
+	font-weight:normal;
+	font-family:arial;
+	box-sizing:borden-box;
+	border:none;
+}
+body{
+	padding:30px 50px;
+	font-stretch:normal;
+	font-size:20pt;
+	background-color:green;
+}
+img{
+	padding:50px 70px;
+}
+.lista{
+	display:block;
+	padding:80px 20px;
+	background:white;
+	text-align:center;
+	width:100%;
+}
+.lista ul{
+	list-style:none;
+}
+.lista ul li{
+	display:inline;
+}
+.lista ul a{
+	text-decoration:none;
+}
+.lista ul a:houver{
+	color:red;
+}
+	

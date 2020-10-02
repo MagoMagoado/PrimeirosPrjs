@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>
+      Pizzaiolo | Menu
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel= "stylesheet" href= "css_bootstrap/bootstrap.css" >
+		<link rel= "stylesheet" href= "css_bootstrap/bootstrap.min.css" >
+
+    <style>
+      #card-block:hover{
+        background-color: #ffc107;
+        transition: 0.5s;
+      }
+      #card-block img{
+        width:65%;
+      }
+      .modal-body{
+        font-size: 15pt;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Pizzaiolo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="restaurantes.html">Restaurantes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cardápio</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="salgadas.html">Salgadas</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="doces.html">Doces</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+      <div id="header">
+        <h1>Pizzaiolo</h1>
+        <h2>Home | Sobre</h2>
+      </div>
+    </header>
+    <div class="container-fluid">
+
+      <!-- Botão para acionar modal -->
+      <div class="my-3">
+        <div class="d-flex justify-content-center">
+          <div  id="card-block" class="d-flex align-items-center card w-75 ">
+            <img src="img/chocolatePretomms.png" style="cursor:pointer;" class="d-block" data-toggle="modal" data-target="#ModalLongoExemplo"></img>
+            <div class="card-body">
+              <h1 class="align-self-center">Chocolate com M&M’s</h1>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalLongoExemplo">Chocolate c/ M&M’s</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <strong>Ingredientes:</strong><br>
+                Mussarela, chocolate e M&M`s.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botão para acionar modal -->
+      <div class="my-3">
+        <div class="d-flex justify-content-center">
+          <div  id="card-block" class="d-flex align-items-center card w-75 ">
+            <img src="img/beijinho.png" style="cursor:pointer;" class="d-block" data-toggle="modal" data-target="#ModalLongoExemplo"></img>
+            <div class="card-body">
+              <h1 class="align-self-center">Beijinho</h1>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalLongoExemplo">Beijinho</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <strong>Ingredientes:</strong><br>
+                Beijinho Moça Nestlé.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botão para acionar modal -->
+      <div class="my-3">
+        <div class="d-flex justify-content-center">
+          <div  id="card-block" class="d-flex align-items-center card w-75 ">
+            <img src="img/chocolate-com-morango.png" style="cursor:pointer;" class="d-block" data-toggle="modal" data-target="#ModalLongoExemplo"></img>
+            <div class="card-body">
+              <h1 class="align-self-center">Chocolate com Morango</h1>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalLongoExemplo">Chocolate com Morango</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <strong>Ingredientes:</strong><br>
+                Mussarela, chocolate ao leite e morango.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Botão para acionar modal -->
+      <div class="my-3">
+        <div class="d-flex justify-content-center">
+          <div  id="card-block" class="d-flex align-items-center card w-75 ">
+            <img src="img/brigadeiro.png" style="cursor:pointer;" class="d-block" data-toggle="modal" data-target="#ModalLongoExemplo"></img>
+            <div class="card-body">
+              <h1 class="align-self-center">Brigadeiro</h1>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="TituloModalLongoExemplo">Brigadeiro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <strong>Ingredientes:</strong><br>
+                Brigadeiro Moça Nestlé e chocolate granulado.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script>
+    $('.carousel').carousel({
+    interval: 1830
+    })
+    </script>
+    <script type="text/javascript">   /**função javascript para o tooltip funcionar*/
+      $(function(){
+       $('[data-toggle="tooltip"]').tooltip()
+      });
+    </script>
+
+  </body>
+  <div id="footerHugo">
+    <p>Rua Francisco Valzacchi, 51</p>
+    <p>Vila Rosa</p>
+    <p>Taquaritinga - SP</p>
+  </div>
+</html>

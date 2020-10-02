@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Compras|The Sims</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <!--materialize-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <!--Uikit-->
+    <link rel="stylesheet" href="uikit/css/uikit.min.css" />
+    <!--Bootstrap-->
+    <link rel= "stylesheet" href= "bootstrap/css/bootstrap.css" >
+    <link rel= "stylesheet" href= "bootstrap/css/bootstrap.min.css" >
+</head>
+<body>
+    <header>
+        <div class="uk-position-relative">
+            <img class="mt-5" src="img/compras.png">
+        </div>
+        <div class="uk-position-top">
+        <nav id="nav" class="uk-navbar-container" uk-navbar>
+            <a href="#" class="uk-navbar-item uk-logo uk-text-success uk-text-bold">THE SIMS</a>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav" >
+                        <li class="uk-parent"><a href="index.html">Home</a></li>
+                        <li class="uk-parent"><a href="noticias.html">Ultímas Notícias</a></li>
+                        <li class="uk-active"><a href="#">The Sims</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="personagens.html">Criando Personagens</a></li>
+                                    <li><a href="compras.html">Compras</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="uk-background-cover" style="background-image: url(img/fundo.jpg);">
+        <div class="uk-container uk-container-small">
+                <h1 class="titulo my-3">PRINCIPAIS JOGOS DA FRANQUIA</h1>
+            <p class="outros my-4">A franquia ocupa o primeiro lugar entre os títulos mais vendidos de todos os tempos com The Sims 2, seguido pelo The Sims original na segunda posição. Nestes 15 anos desde o primeiro lançamento, o game recebeu diversos capítulos. Confira os principais jogos da franquia.</p>
+            <div class="mt-3 compras" uk-slider="center: true">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/thesims.jpg" alt="The Sims 4">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">The Sims 4</h3>
+                                    <p>O mais recente capítulo da franquia foi lançado em 2014 com uma série de novidades, o foco é tornar os Sims cada vez mais complexos, com profundas aspirações e personalidades. Reduziram o jogo a sua base e tornaram tudo mais fácil e acessível.</p>
+                                    
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/thesims-3.jpg" alt="The Sims 3">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">The Sims 3</h3>
+                                    <p>The Sims 3 se focou em aprofundar ainda mais a base da jogabilidade. Os Sims ficaram mais complexos, com ambições e personalidades, enquanto as casas e os móveis ganharam mais detalhes e opções de personalização.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/thesims-2.jpg" alt="The Sims 2">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">The Sims 2</h3>
+                                    <p>The Sims 2 trouxe uma experiência familiar ao expandir o conteúdo do original, mas também com grandes novidades, como gráficos totalmente em 3D e o sistema de envelhecimento que permitia que seu Sim tivesse várias fases em sua vida.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-card uk-card-default">
+                                <div class="uk-card-media-top">
+                                    <img src="img/thesims-online.jpg" alt="The Sims Online">
+                                </div>
+                                <div class="uk-card-body">
+                                    <h3 class="uk-card-title">The Sims Online</h3>
+                                    <p>Aproveitando o sucesso de The Sims, a Electronic Arts planejou lançar uma versão online do jogo que o convertesse em um MMO tradicional. The Sims Online reproduzia bem demais a realidade, fazendo o jogo não se popularizar tanto.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                </div>
+
+                <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s mb-3" style="background-color: #328aee;" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="img/dvd-thesims.png" alt="The Sims 4" uk-cover>
+                    <canvas width="500" height="680" style="background-color: #3ac541;"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <div class="uk-inline uk-flex uk-flex-center mb-3">
+                            <button class="uk-button uk-button-danger" type="button">COMPRAR THE SIMS 4</button>
+                            <div uk-dropdown="pos: right-center">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><button class="uk-button uk-button-secondary mb-2 uk-width-1-1">PC - Origin</button></li>
+                                    <li><button class="uk-button uk-button-secondary mb-2 uk-width-1-1">Xbox One</button></li>
+                                    <li><button class="uk-button uk-button-secondary mb-1 uk-width-1-1">PlayStation®4</button></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li class="uk-active"><a href="#">The Sims Mobile</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3 class="uk-card-title">RECURSOS PRINCIPAIS</h3>
+                        <p><strong>Sims únicos –</strong> Você tem uma variedade de Sims para personalizar, todos eles com aparências distintas, personalidades dinâmicas e aspirações inspiradoras. Use recursos poderosos de personalização para dar vida à sua imaginação. Crie você mesmo, suas celebridades favoritas, suas fantasias ou seus amigos! Troque as roupas dos seus Sims para refletir seu humor, crie histórias que aprofundam o seu mundo e dê propósito às vidas deles com traços e aspirações.</p>
+                        <p><strong>Construa a casa perfeita –</strong> Projete e construa facilmente as casas perfeitas para os seus Sims usando o Modo Construção. Crie a casa dos seus sonhos (e dos sonhos deles) planejando o layout, escolhendo a mobília e alterando a paisagem e o terreno. Você pode até construir uma piscina, subsolo e jardim, ou reconstruir com novas ideias e projetos!</p>
+                        <p><strong>Jogue com a vida –</strong> Controle os momentos divertidos e envolventes das vidas dos seus Sims, de seus relacionamentos às suas carreiras. Suas escolhas definem todos os aspectos das vidas deles, desde o nascimento e da fase de bebê até a vida adulta. Nesse período, desenvolva as habilidades dos seus Sims, pratique passatempos originais, leve-os para aventuras, inicie novas famílias e muito mais.</p>
+                        <p><strong>Adicione novas experiências –</strong> Use a Galeria para encontrar inspiração em uma comunidade de jogadores iguais a você, onde é possível adicionar conteúdo ao jogo e compartilhar suas próprias criações. Faça download, curta e deixe comentários para os seus Sims, casa e cômodos favoritos. Participe da comunidade e participe da diversão!</p>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--JavaScript Materialize-->
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.1.4.js"
+  integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4="
+  crossorigin="anonymous"></script>
+<!--JavaScript Uikit-->
+<script src="uikit/js/uikit.min.js"></script>
+<script src="uikit/js/uikit-icons.min.js"></script>
+</body>
+    <footer class="page-footer">
+        <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+            <img src="img/logo.png" style="width:400px;">
+            <p class="uk-text-meta uk-text-secondary">
+                <br>Informação legal
+                <br>Atualizações dos Serviços Online
+                <br>Contrato do Usuário
+                <br>Privacidade & Cookies
+            </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+
+            </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+                © 2019 Electronic Arts Inc.
+            </div>
+          </div>
+    </footer>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>
+		musicplay|cadastro
+		</title>
+		<meta name="description" context="cadastro">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/estilo_cadastro.css">
+		<link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="css/hamburger.css">
+		<link rel= "stylesheet" href= "css_bootstrap/bootstrap.css" >
+		<link rel= "stylesheet" href= "css_bootstrap/bootstrap.min.css" >
+
+	</head>
+	<body id="corpo">
+    <header>
+			<nav>
+				<button class="hamburger hamburger--collapse" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+		<button class="hamburger hamburger--collapse is-active" type="button">
+		<span class="hamburger-box">
+		<span class="hamburger-inner"></span>
+		</span>
+		</button>
+        <img id="logo" src="img/logo_music.jpg"/>
+        <ul id="navegacao">
+          <a href="index.html"><li>Menu</li></a>
+          <a href="cadastro.html"><li>Cadastro</li></a>
+          <a href="novidades.html"><li>Flow</li></a>
+        </ul>
+      </nav>
+		</header>
+		<main>
+			<div class="d-flex justify-content-center">
+			 <article>
+		    	<h1 id="h1_isa">CADASTRO|MUSICPLAY</h1>
+					<form>
+						<div class="form-group row">
+		    			<label for="exampleInputEmail1" class="col-sm-2 col-form-label">Email:</label>
+							<div class="col-sm-10">
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@example.com">
+							</div>
+						</div>
+		  			<div class="form-group row">
+		    			<label for="inputPassword" class="col-sm-2 col-form-label">Senha:</label>
+		    			<div class="col-sm-10">
+		      			<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+		    			</div>
+		  			</div>
+		  			<div class="form-group form-check">
+		    			<input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    			<label class="form-check-label" for="exampleCheck1">Mantenha-me conectado</label>
+		  			</div>
+		  			<button id="button"><a id="entrar" href="index.html">ENTRAR</a></button>
+					</form>
+			</article>
+			</div>
+		</main>
+		<script src="js/jquery-3.3.2.min.js"></script>
+		<script src="js/bootstrap/bootstrap.bundle.js"></script>
+		<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+		<script>
+  		var $hamburger = $(".hamburger");
+  		$hamburger.on("click", function(e) {
+    	$hamburger.toggleClass("is-active");
+    	// Do something else, like open/close menu
+  		});
+		</script>
+  </body>
+</html>

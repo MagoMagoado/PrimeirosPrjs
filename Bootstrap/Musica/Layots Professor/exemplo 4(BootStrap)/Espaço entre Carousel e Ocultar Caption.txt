@@ -1,0 +1,5 @@
+Trocar esta linha pela linha abiaxo   <div id="carouselSite" class="carousel slide" data-ride="carousel">
+                                      <div id="carouselSite" class="carousel slide my-4" data-ride="carousel">  <!--- my-4  dá espaço na margem no eixo y  - O atributo data-ride="carousel" é usado para declarar que o carousel vai começar a animação assim que a página carregar --->
+
+Trocar todas as linhas de Caption do Carousel pela linha abiaxo  <div class="carousel-caption">
+                                                                 <div class="carousel-caption d-none d-lg-block"> <!--- d-none oculta o caption e d-lg-block faz exibir quando tela grande --->     

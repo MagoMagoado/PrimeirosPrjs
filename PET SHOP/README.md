@@ -1,3 +1,3 @@
-###NOTA
-*Aplicações C#
-*Objetivo: Sistema de cadastro Petshop
+# NOTA
+* Aplicações C#
+* Objetivo: Sistema de cadastro Petshop

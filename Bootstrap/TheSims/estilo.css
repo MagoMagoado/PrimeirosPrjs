@@ -1,0 +1,102 @@
+@font-face{
+    font-family:'SimsLLHP';
+    src:local('../SimsLLHP.ttf'), url('../SimsLLHP.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+img{
+    max-width: 100%;
+    overflow: hidden;
+}
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0) !important; /*tirar o cinza do fundo do link*/
+ }
+.uk-container{
+ }
+h1.titulo{
+font: SimsLLHP, arial, serif;
+color:white;
+text-align: center;
+font-size: 57pt;
+}
+h1.titulo-pers{
+    font-family: 'Oswald', sans-serif;
+    color:rgb(228, 218, 218);
+    text-align: center;
+    font-size: 57pt;
+    text-shadow:rgba(61, 75, 201, 0.74) 0.1em 0.1em 0.01em;
+}
+h1.titulo-sub{
+    font: SimsLLHP, arial, serif;
+    color:white;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bolder;  
+}
+div#quadro{
+    display: block;
+    padding: 20px;
+    background-color: rgb(248, 248, 248,0.2);
+    border-radius: 75px 75px 75px 75px;
+}
+p.outros{
+    font-weight:bold;
+    color:rgb(6, 135, 241);
+    font-size: 20pt;
+    text-shadow: 1px 1px 1px black;
+}
+.compras img{
+    width: 655px;
+    height: 400px;
+}
+.uk-card-body p{
+    color:black;
+    font-size: 10pt;
+}
+.card-title{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 20pt;
+}
+.card-text{
+    font-size: 14pt;
+    font-family:'Oswald', sans-serif;
+}
+.card ol{
+    list-style: none;
+    counter-reset: li;
+}
+.card ol li{
+    margin: 6px 0px 6px 0px;
+    counter-increment: li;
+    font-size: 14pt;
+    font-family:'Oswald', sans-serif;
+}
+.card li::before{
+    content:counter(li);
+    color: blue;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+.outros2{
+    font-family: 'Yeon Sung', cursive;
+    color:red;
+    font-size: 25pt; 
+}
+.parallax {
+    /* The image used */
+    background-image: url("img/sims-mobile.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.page-footer{
+    background-image: url("img/footer.png");
+    background-size:cover;
+}

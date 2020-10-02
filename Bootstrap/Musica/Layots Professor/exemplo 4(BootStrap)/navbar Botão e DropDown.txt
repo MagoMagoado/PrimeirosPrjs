@@ -1,0 +1,23 @@
+Abaixo dessa linha <a class="navbar-brand" href="#">Introdução Bootstrap</a>
+      
+	  <!--- Adiciona botão Hambúrger --->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+ 
+
+                     <li class="nav-item">
+                       <a class="nav-link" href="#">Sobre</a>
+Abaixo desse item    </li>
+ 
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="dropdownSite" data-toggle="dropdown">Produtos</a>
+ 	<div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Produto 1</a>
+	<div class="dropdown-divider"></div> <!--- Adiciona uma linha de separação --->
+	  <a class="dropdown-item" href="#">Produto 2</a>
+	  <a class="dropdown-item" href="#">Produto 3</a>
+	  <a class="dropdown-item" href="#">Produto 4</a>
+	</div>
+    </li>	

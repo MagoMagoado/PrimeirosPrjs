@@ -1,0 +1,311 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    cursor: url(cursor.png), auto;
+}
+*{
+    list-style: none;
+    font-size: 12pt;
+}
+body{
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    cursor: url(img/cursor.cur),auto;
+}
+div#content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+div#gameboy{/*centro do gameboy: top:275px; left: 325px;*/
+    position: absolute;
+    width: 650px;
+    height: 550px;
+    background-color: rgb(247, 152, 10);
+    padding:0 30px 0 30px;
+    border-radius: 1em 1em 4.5em 1em;
+    border: 6px solid rgb(0, 0, 0);
+    box-shadow: inset .9em -.4em 0 rgb(255, 255, 255, .2);
+    
+}
+div#display{
+    position: absolute;
+    top:0; left: 50%;
+    width: 650px;
+    height: 360px;
+    margin-top:10px ;
+    margin-left: -330px;/*metade de 650 + 5 da borda*/
+    background-color: rgb(118, 159, 235);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 2em;
+    /*box-shadow: 0.5em 0.5em 0em rgb(32, 31, 31);*/
+}
+/*--------------------------------------------------------*/
+div#bnt{
+    position: absolute;
+    top:375px; left: 525px;
+    width: 58px;
+    height: 150px;
+    transform: rotate(75deg);
+    background-color:rgb(199, 125, 15);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 3em;
+}
+div#bnt div#bnt-1{
+    margin: 10px 0 0 3px;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(233, 16, 16);
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: inset .2em .1em 0 rgba(255, 255, 255, 0.9);
+    border-radius: 2em;
+}
+div#bnt div#bnt-2{
+    margin: 28px 0 0 3px;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(233, 16, 16);
+    border: 5px solid rgb(0, 0, 0);
+    box-shadow: inset .2em .1em 0 rgba(255, 255, 255, 0.9);
+    border-radius: 2em;
+}
+div#bnt div#bnt-1:hover{
+    cursor: url(img/cursor.cur), pointer;
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.9);
+    background-color:rgb(216, 17, 17);
+}
+div#bnt div#bnt-2:hover{
+    cursor: url(img/cursor.cur), pointer;
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.9);
+    background-color:rgb(216, 17, 17);
+}
+/*-------------------------------------------------------*/
+div#controls{
+    position: absolute;
+    top:385px; left: 20px;
+    width: 130px;
+    height: 130px;
+    background-color:rgb(199, 125, 15);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5em;
+}
+div#controls div.bnt-top{
+    position: absolute;
+    top:20px; left: 50px;/*Metade do valor do controls(65), menos a metade do tamanho do botão(15)*/
+    width: 30px;
+    height: 30px;
+    background-color:rgb(87, 87, 87);
+    border-top: 3px solid rgb(0, 0, 0); border-left: 3px solid rgb(0, 0, 0); border-right: 3px solid rgb(0, 0, 0);
+    border-radius: .2em .2em 0em 0em;
+    box-shadow: inset 0em .3em 0 rgba(255, 255, 255, 0.9);
+}
+div#controls div.bnt-centro{
+    position: absolute;
+    top:53px; left: 53px;/*Desce 50 pq é 30 do bnt top + 20 de seu padding, + 3 pelas bordas*/
+    width: 30px;
+    height: 30px;
+    background-color:rgb(87, 87, 87);
+}
+div#controls div.bnt-bottom{
+    position: absolute;
+    top:80px; left: 50px;
+    width: 30px;
+    height: 30px;
+    background-color:rgb(87, 87, 87);
+    border-bottom: 3px solid rgb(0, 0, 0); border-left: 3px solid rgb(0, 0, 0); border-right: 3px solid rgb(0, 0, 0);
+    border-radius: 0em 0em .2em .2em;
+    box-shadow: inset 0 -.3em 0 rgba(58, 58, 58, 0.644);
+}
+div#controls div.bnt-left{
+    position: absolute;
+    top:50px; left: 20px;/*50 para ficar no centro, e 20 pq é 50-30=20*/
+    width: 30px;
+    height: 30px;
+    background-color:rgb(87, 87, 87);
+    border-bottom: 3px solid rgb(0, 0, 0); border-top: 3px solid rgb(0, 0, 0); border-left: 3px solid rgb(0, 0, 0);
+    border-radius: .2em 0em 0em .2em;
+    box-shadow: inset 0 .3em 0 rgba(255, 255, 255, 0.9), inset 0 -.3em 0 rgba(58, 58, 58, 0.644);
+}
+div#controls div.bnt-right{
+    position: absolute;
+    top:50px; left: 83px;/*50 para ficar no centro, 30 do tamanho e 3 das bordas 50+30+3=83*/
+    width: 30px;
+    height: 30px;
+    background-color:rgb(87, 87, 87);
+    border-bottom: 3px solid rgb(0, 0, 0); border-top: 3px solid rgb(0, 0, 0); border-right: 3px solid rgb(0, 0, 0);
+    border-radius: 0em .2em .2em 0em;
+    box-shadow: inset 0 .3em 0 rgba(255, 255, 255, 0.9), inset 0 -.3em 0 rgba(58, 58, 58, 0.644);
+}
+div#controls div.bnt-top:hover{
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.9);
+}
+div#controls div.bnt-right:hover{
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.9);
+}
+div#controls div.bnt-left:hover{
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.9);
+}
+div#controls div.bnt-bottom:hover{
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.9);
+}
+/*-------------------------------------------------------------*/
+div #press-start{
+    position: relative;
+    top:426px; left: 193px;
+    background-color:rgb(236, 233, 228);
+    width: 250px;
+    height: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    /*box-shadow: inset -.1em -.2em 3px rgb(0, 0, 0),inset .1em 0 3px rgb(0, 0, 0);*/
+    border-radius: 2em;
+    animation: press 1s steps(2) 1s infinite;
+}
+div #press-start:hover{
+    cursor: pointer;
+}
+div#press-start span{
+    position: absolute;
+    top:15px; left:23px;
+    font-family:'Press Start 2P', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+@keyframes press{
+    0%{
+        border: 3px solid rgb(0, 0, 0);
+    }
+    100%{
+        border: 5px solid rgb(0, 0, 0);
+        left: 191px; /*-2 da borda(de 3px pra 5px)*/
+        top: 424px; /*-2 da borda*/
+    }
+}
+/*-------------------------------------------------------------*/
+ul#listras{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: inherit;
+    border-radius: 2em;
+    display: flex;
+    overflow: hidden;
+}
+ul#listras li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(215, 223, 180);
+    height: 100%;
+}
+ul#listras li:nth-child(1){
+    transform: translateX(75vh) skewX(-8deg);
+    width: 25px;
+    box-shadow: inset 30px 0 50px rgb(241, 243, 237);
+}
+ul#listras li:nth-child(2){
+    transform: translateX(62vh) skewX(-8deg);
+    width: 55px;
+    box-shadow: inset 30px 0 50px rgb(219, 216, 216);
+}
+ul#listras li:nth-child(3){
+    transform: translateX(48vh) skewX(-8deg);
+    width: 35px;
+    box-shadow: inset 30px 0 50px rgb(219, 216, 216);
+}
+/*----------------------------------------------------------*/
+div#start-animation{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 360px;
+    border-radius: 1.7em;
+}
+ul#caixas{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 360px;
+    border-radius: 1.7em;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+    /*display: flex;fazer os li se arrumarem*/
+}
+ul#caixas li{
+    width: 180px;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid rgb(49, 38, 204);
+    border-radius: 1em;
+    cursor: url(cursor.png), pointer;
+}
+ul#caixas li:hover{
+    background-size: 150%;
+}
+ul#caixas li:nth-child(1){
+    background-image: url(./img/capa1.jpg);
+}
+ul#caixas li:nth-child(2){
+    background-image: url(./img/capa1.jpg);
+}
+ul#caixas li:nth-child(3){
+    background-image: url(./img/capa1.jpg);
+}
+/*---------------------------------------------------------------*/
+div#registros{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 360px;
+    border-radius: 1.7em;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    visibility: hidden;
+}
+div#registros h1{
+    font-family:'Press Start 2P', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: forestgreen;
+    margin-left: 35px;
+}
+div#registros h1::before{
+    content: ">";
+    animation: rgs 1s steps(2) 1s infinite;
+}
+@keyframes rgs{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+div#registros li{
+    font-family:'Press Start 2P', Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: forestgreen;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+div#registros li::before{
+    content: "#";
+    margin-right: 15px;
+}
+/*---------------------------------------------------------------*/
+#frog{
+    position: absolute;
+    top:50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+    display: none;
+}

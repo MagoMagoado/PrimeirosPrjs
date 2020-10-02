@@ -1,0 +1,7 @@
+﻿ <div class="jumbotron">
+	  <h1 class="display-3">Bootstrap 4</h1>
+	  <p class="lead"> Um texto para destaque no elemento Jumbotron.</p>
+	  <p class="lead">
+	    <a class="btn btn-primary btnl-lg" href="#"> Mais um link </a>
+	  </p>	
+ </div>

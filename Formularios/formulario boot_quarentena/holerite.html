@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel= "stylesheet" href= "css_bootstrap/bootstrap.css" >
+		<link rel= "stylesheet" href= "css_bootstrap/bootstrap.min.css" >
+        <title>XVidros|Vidros</title>
+    </head>
+    <div class="container-fluid-width pb-3">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #24c2e9">
+                <a class="navbar-brand" href="#"><img id="logo" src="logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="holerite.html">Holerite</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="venda.html">Sistema de Venda<span class="sr-only">(current)</span></a>
+                </li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+        <h1 class="centro mt-3">Holerite</h1>
+        <hr style="background-color: red;" class="linha-horizontal rounded-circle mb-4"/>
+
+        <div class="container w-100 border border-dark bg-light mt-5 mb-5">
+            <form method="GET" action="dados_holerite.php" class="mt-2 mb-3">
+                <div class="form-group">
+                  <label for="nome">Funcionário</label>
+                  <input type="text" class="form-control" id="nome" name="nome" required aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">Preencha com seu nome completo.</small>
+                </div>
+                <div class="form-group w-50">
+                    <div class="row">
+                        <div class="col">
+                            <label for="horas">Hora Trabalhada:</label>
+                            <input type="text" class="form-control" id="horas" name="horas" required placeholder="00:00">
+                        </div>
+                        <div class="col">
+                            <label for="valor">Valor da Hora:</label>
+                            <input type="text" class="form-control" id="valor" name="valor" required placeholder="R$00,00">
+                        </div>
+                        <div class="col">
+                            <label for="grat">Gratificação:</label>
+                            <input type="text" class="form-control" id="grat" name="grat" required placeholder="R$00,00">
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-left">
+                    <button type="submit" class="btn btn-primary mr-5">Enviar</button>
+                    <button type="submit" class="btn btn-primary" disabled>Cancelar</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div id="footer">
+        <ul>
+            <li>Rua Francisco Valzacchi, 51</li>
+            <li>Vila Rosa</li>
+            <li>Taquaritinga - SP</li>
+        </ul>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+</html>
